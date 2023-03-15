@@ -33,7 +33,7 @@ File Upload
     [Tags]
     GoTo                     ${url}
     TypeText                 Username                    ${username}
-    TypeText                 Password                    ${password}
+    TypeText                 Password                    ${psw}
     ClickText                Log In to Sandbox
     
     GoTo                     ${urlDesicion}
