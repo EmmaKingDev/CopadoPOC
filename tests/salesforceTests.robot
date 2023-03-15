@@ -2,8 +2,8 @@
 # before running this suite.
 
 *** Settings ***
-Resource                     ../resources/common.robot
-Resource                     ../resources/omniscripts.robot
+Resource                     ../Resources/common.robot
+Resource                     ../Resources/omniscripts.robot
 Library                      QWeb
 Suite Setup                  Setup Browser
 Suite Teardown               End suite
